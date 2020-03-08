@@ -46,6 +46,10 @@ body {
     border-color: black;
 }
 
+/* .btn-outline-dark:hover img {
+    -webkit-filter: invert(100%) !important;
+} */
+
 .navbar-toggler {
     background-color: white;
     border-color: black !important;
@@ -55,7 +59,20 @@ body {
     width: 15rem !important;
 }
 
-#left-filters {
-    height: 100%;
+#filters {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: auto;
     background-color: white;
+    z-index: 1;
+}
+
+.btn-outline-light {
+    background-color: white;
+    border-color: black !important;
+}
+
+#sidemargin {
+    margin-top: 6rem;
 }
