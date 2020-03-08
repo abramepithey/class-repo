@@ -1,0 +1,61 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    background-image: url(./assets/background2.jfif);
+    background-size: cover;
+    padding-top: 6rem;
+}
+
+#navi {
+    background-image: url(./assets/nav-wallpaper-light.jpg);
+    background-size: cover;
+    border-bottom: 1px solid black;
+}
+
+#myname {
+    font-family: 'Lobster Two', cursive;
+    font-size: 24pt;
+}
+
+#logo-left {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.nav-link {
+    font-size: 18pt;
+    text-decoration: bold;
+    text-decoration-color: black;
+}
+
+.nav-item {
+    color: black;
+}
+
+.btn-outline-dark {
+    background-color: white;
+}
+
+.btn-outline-dark:hover {
+    color: white !important;
+    border-color: black;
+}
+
+.navbar-toggler {
+    background-color: white;
+    border-color: black !important;
+}
+
+.card {
+    width: 15rem !important;
+}
+
+#left-filters {
+    height: 100%;
+    background-color: white;
+}
