@@ -55,17 +55,13 @@ body {
     border-color: black !important;
 }
 
-.card {
-    width: 15rem !important;
-}
-
 #filters {
-    position: absolute;
-    left: 0;
-    top: 0;
+    /* position: absolute; */
+    left: -5px !important;
+    top: -2rem !important;
+    margin-top: 0 !important;
     height: auto;
     background-color: white;
-    z-index: 1;
 }
 
 .btn-outline-light {
@@ -74,5 +70,6 @@ body {
 }
 
 #sidemargin {
-    margin-top: 6rem;
+    margin-top: 1rem;
+    left: 0 !important;
 }
