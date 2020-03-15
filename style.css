@@ -46,9 +46,10 @@ body {
     border-color: black;
 }
 
-/* .btn-outline-dark:hover img {
-    -webkit-filter: invert(100%) !important;
-} */
+.cart:hover > .cart-image {
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
 
 .navbar-toggler {
     background-color: white;
@@ -56,11 +57,9 @@ body {
 }
 
 #filters {
-    /* position: absolute; */
     left: -5px !important;
     top: -2rem !important;
     margin-top: 0 !important;
-    height: auto;
     background-color: white;
 }
 
@@ -72,4 +71,8 @@ body {
 #sidemargin {
     margin-top: 1rem;
     left: 0 !important;
+}
+
+.footer {
+    border-top: 1px solid black;
 }
